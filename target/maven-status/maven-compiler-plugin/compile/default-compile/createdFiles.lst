@@ -1,0 +1,9 @@
+cda\bibliotheque\controller\Author\EditAuthorController.class
+cda\bibliotheque\dao\DatabaseConnection.class
+cda\bibliotheque\controller\SecondaryController.class
+cda\bibliotheque\controller\Author\CreateAuthorController.class
+cda\bibliotheque\model\Author.class
+cda\bibliotheque\controller\Author\AuthorController$1.class
+cda\bibliotheque\dao\AuthorDAO.class
+cda\bibliotheque\controller\PrimaryController.class
+cda\bibliotheque\controller\Author\AuthorController.class
