@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cda.bibliotheque.controller.Book.CreateBookController">
+   <children>
+      <Label text="Création d'un livre" alignment="CENTER" textAlignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label text="Titre" />
+      <TextField fx:id="inputTitle" promptText="Titre" />
+      <Label text="Date de sortie" />
+      <DatePicker fx:id="inputReleaseDate" promptText="Sélectionner la date de sortie" />
+      <CheckBox fx:id="inputAvailable" text="Disponible" />
+      <Button text="Enregistrer" onAction="#submit" />
+   </children>
+   <padding>
+      <Insets top="25.0" left="25.0" right="25.0" bottom="25.0" />
+   </padding>
+</VBox>
